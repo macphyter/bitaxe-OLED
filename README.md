@@ -22,4 +22,10 @@ The pins used to support each interface are described in this table
 
 ![interface-modes](doc/interface-modes.png)
 
+The MCU firmware is flashed using the built-in STM32 serial bootloader which is activated 
+by holding down the "boot" button while powering on the board.  A standard FTDI cable 
+pinout was used to make firmware flashing easy but this pinout is not identical to the 
+Bitaxe BAP, so a custom cable solution may be necessary to connect this to a bitaxe.
 
+The MCU firmware will display various GUI pages, and the data for these pages will be 
+supplied by the bitaxe through the UART.
