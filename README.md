@@ -29,3 +29,6 @@ Bitaxe BAP, so a custom cable solution may be necessary to connect this to a bit
 
 The MCU firmware will display various GUI pages, and the data for these pages will be 
 supplied by the bitaxe through the UART.
+
+The MCU is an STM32G0B1KEU6 which has 512KB of flash memory and 144K of RAM, and runs at 
+64 MHz from the internal oscillator.
